@@ -7,3 +7,13 @@ body{
 button{
     background: green
 }
+h2{
+    margin-left: 600px;
+}
+.mydiv{
+    border: 2px solid red;
+    background-color: yellow;
+    width: 250px;
+    margin-left : 500px;
+    
+}

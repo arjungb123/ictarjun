@@ -1,0 +1,11 @@
+{
+  "name": "htmlcss",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"arju\"",
+  "license": "BSD-2-Clause"
+}
