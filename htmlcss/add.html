@@ -17,47 +17,56 @@
     <div class="container">
 
      <div class="row">
-         <div class="col-sm-6">
-             operand 1
-         </div>
-         <div class="col-sm-6">
-             <input type="number" class="form-control" id ="op1"/>
-         </div>
-     </div>   
-   <div class="row">
-       <div class="col-sm-6">
-           operand 2
-       </div>
-       <div class="col-sm-6">
-           <input type="number" class="form-control" id="op2"/>
-        
-       </div>
-   </div>
-   <div class="row">
-       <div class="col-sm-6">opearation</div>
-       <div class="col-sm-6">
-           <select id="oper">
-               <option value="+"> addition</option>
-               <option value="-">substraction</option>
-               <option value="*">multiply</option>
-               <option value="%">division</option>
-               
-
-           </select>     </div>
+         <div class="col-sm-6"><div class="row">
+            <div class="col-sm-6" style="background: aqua">
+                operand 1
+            </div>
+            <div class="col-sm-6">
+                <input type="number" class="form-control" id ="op1"/>
+            </div>
+        </div>   
+      <div class="row">
+          <div class="col-sm-6" style="background: aquamarine">
+              operand 2
+          </div>
+          <div class="col-sm-6">
+              <input type="number" class="form-control" id="op2"/>
+           
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-6" style="background: cadetblue">opearation</div>
+          <div class="col-sm-6">
+              <select id="oper">
+                  <option value="+"> addition</option>
+                  <option value="-">substraction</option>
+                  <option value="*">multiply</option>
+                  <option value="%">division</option>
+                  
+   
+              </select>     </div>
+      </div>
+      
+      
+      <div class="row">
+          <div class="col-sm-6"></div>
+   
+   <div class="col-sm-6">
+       <button onclick="get();" class="btn-succes"></button>
    </div>
    
-   
-   <div class="row">
+      </div>
+      
+      
+      <div class="row">
        <div class="col-sm-6"></div>
-
-<div class="col-sm-6">
-    <button onclick="get();" class="btn-success"></button>
-</div>
-
+   
+   <div class="col-sm-6">
+    <p id="result"></p>
    </div>
    
-   
-   
+   </div></div>
+     </div>
    
    
     </div>

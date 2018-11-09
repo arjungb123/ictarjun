@@ -61,16 +61,16 @@ function largest()
 
         if(x<y && x<z)
         {
-            alert(x);
+            var res=x;
         }
         else if(y<z)
         {
-            alert(y);
+            var res=y;
         }
         else{
-            alert(z);
+            var res=z;
         }
 
-
+  document.getElementById("result").innerHTML=res;
 
     }

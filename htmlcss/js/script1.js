@@ -9,28 +9,28 @@ function get()
     var oper=(c.options[c.selectedIndex]).value;
     if(oper=="+")
     {
-    var p=x+y;
-     alert(p);
+    var c=x+y;
+     
   }
 
   if(oper=="-"){
 
-    var q=x-y;
-    alert(q);
+    var c=x-y;
+    
   }
   if(oper=="*"){
 
-  var r=x*y;
-  alert(r);
+  var c=x*y;
+  
 
       
   }if(oper=="%")
   {
-      var s=x/y;
-      alert(s);
+      var c=x/y;
+      
   }
 
-
+document.getElementById("result").innerHTML="<table border=3><tr><td>"+c+"</td>,</tr><table>"
 
 
 
