@@ -1,0 +1,6 @@
+mytuple=("vivek",5,"sib")
+print(mytuple)
+print(mytuple[0])
+print(mytuple[1:])
+mytuple1=("fa",5)
+print(mytuple+mytuple1)
