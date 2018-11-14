@@ -10,3 +10,4 @@ def data():
     return render_template('emp.html',myemp=getemp)
 if(__name__=='__main__'):
     app.run(debug=True)
+    
