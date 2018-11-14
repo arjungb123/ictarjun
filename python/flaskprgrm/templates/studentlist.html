@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block mycontent %}
+<h1> ict students @ calicut</h1>
+{% for a in mystud  %}
+ <ul class="list-group-item">
+     <li class="list-group-item active"> <b> id: </b>{{a.id}}</li>
+     <li class="list-group-item "> <b> name: </b>{{a.name}}</li>
+     <li class="list-group-item "> <b> place: </b>{{a.place}}</li>
+     <li class="list-group-item "> <b> mobile: </b>{{a.mobile}}</li>
+     <li class="list-group-item "> <b> email: </b>{{a.email}}</li>
+     <li class="list-group-item "> <b> joineddate: </b>{{a.joineddate}}</li>
+
+
+ </ul>
+{% endfor %}
+{% endblock %}
